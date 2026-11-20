@@ -1,0 +1,86 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+       2      1      5      0       3 Builder::Builder@164-166@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      2     36      0       3 Builder::get@170-172@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      1     19      1       4 Builder::setCharacterOffset@180-183@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      1     24      1       4 Builder::setFormat@191-194@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      1     19      1       4 Builder::setRecordNumber@202-205@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      1     19      1       4 Builder::setTrackBytes@214-217@src/main/java/org/apache/commons/csv/CSVParser.java
+       7      2     39      0       7 CSVRecordIterator::getNextRecord@231-237@src/main/java/org/apache/commons/csv/CSVParser.java
+       9      3     35      0       9 CSVRecordIterator::hasNext@240-248@src/main/java/org/apache/commons/csv/CSVParser.java
+      14      4     61      0      15 CSVRecordIterator::next@251-265@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     11      0       3 CSVRecordIterator::remove@268-270@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      1     32      2       4 Headers::Headers@287-290@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     11      0       3 CSVParser::builder@299-301@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      1     41      3       4 CSVParser::parse@320-323@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      1     37      3       4 CSVParser::parse@347-350@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      1     42      3       4 CSVParser::parse@371-374@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     33      2       3 CSVParser::parse@396-398@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      1     35      2       4 CSVParser::parse@415-418@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      1     41      3       4 CSVParser::parse@443-446@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     25      2       3 CSVParser::CSVParser@496-498@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     37      4       3 CSVParser::CSVParser@525-527@src/main/java/org/apache/commons/csv/CSVParser.java
+      11      1    109      6      11 CSVParser::CSVParser@556-566@src/main/java/org/apache/commons/csv/CSVParser.java
+       7      4     55      1       7 CSVParser::addRecordValue@568-574@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     13      0       3 CSVParser::close@583-585@src/main/java/org/apache/commons/csv/CSVParser.java
+       5      2     29      0       5 CSVParser::createEmptyHeaderMap@587-591@src/main/java/org/apache/commons/csv/CSVParser.java
+      52     18    378      0      56 CSVParser::createHeaders@600-655@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     12      0       3 CSVParser::getCurrentLineNumber@667-669@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     12      0       3 CSVParser::getFirstEndOfLine@677-679@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1      8      0       3 CSVParser::getHeaderComment@688-690@src/main/java/org/apache/commons/csv/CSVParser.java
+       8      2     43      0       8 CSVParser::getHeaderMap@704-711@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     10      0       3 CSVParser::getHeaderMapRaw@718-720@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     15      0       3 CSVParser::getHeaderNames@734-736@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1      8      0       3 CSVParser::getRecordNumber@748-750@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     19      0       3 CSVParser::getRecords@767-769@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1      8      0       3 CSVParser::getTrailerComment@778-780@src/main/java/org/apache/commons/csv/CSVParser.java
+       9      8     74      1      11 CSVParser::handleNull@789-799@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     10      0       3 CSVParser::hasHeaderComment@813-815@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     10      0       3 CSVParser::hasTrailerComment@826-828@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     12      0       3 CSVParser::isClosed@835-837@src/main/java/org/apache/commons/csv/CSVParser.java
+       4      2     26      0       4 CSVParser::isStrictQuoteMode@845-848@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1      8      0       3 CSVParser::iterator@873-875@src/main/java/org/apache/commons/csv/CSVParser.java
+      45     11    258      0      45 CSVParser::nextRecord@884-928@src/main/java/org/apache/commons/csv/CSVParser.java
+       3      1     26      0       3 CSVParser::stream@943-945@src/main/java/org/apache/commons/csv/CSVParser.java
+      13      1    137      2      13 Lexer::Lexer@54-66@src/main/java/org/apache/commons/csv/Lexer.java
+      12      3     85      1      12 Lexer::appendNextEscapedCharacterToToken@75-86@src/main/java/org/apache/commons/csv/Lexer.java
+       3      1     13      0       3 Lexer::close@95-97@src/main/java/org/apache/commons/csv/Lexer.java
+       3      1     12      0       3 Lexer::getBytesRead@104-106@src/main/java/org/apache/commons/csv/Lexer.java
+       3      1     12      0       3 Lexer::getCharacterPosition@113-115@src/main/java/org/apache/commons/csv/Lexer.java
+       3      1     12      0       3 Lexer::getCurrentLineNumber@122-124@src/main/java/org/apache/commons/csv/Lexer.java
+       3      1      8      0       3 Lexer::getFirstEol@126-128@src/main/java/org/apache/commons/csv/Lexer.java
+       3      1     12      0       3 Lexer::isClosed@130-132@src/main/java/org/apache/commons/csv/Lexer.java
+       3      1     13      1       3 Lexer::isCommentStart@134-136@src/main/java/org/apache/commons/csv/Lexer.java
+      19      5    115      1      19 Lexer::isDelimiter@146-164@src/main/java/org/apache/commons/csv/Lexer.java
+       3      1     13      1       3 Lexer::isEndOfFile@171-173@src/main/java/org/apache/commons/csv/Lexer.java
+       3      1     13      1       3 Lexer::isEscape@180-182@src/main/java/org/apache/commons/csv/Lexer.java
+      13      5    101      0      13 Lexer::isEscapeDelimiter@192-204@src/main/java/org/apache/commons/csv/Lexer.java
+       3      3     21      1       3 Lexer::isMetaChar@206-208@src/main/java/org/apache/commons/csv/Lexer.java
+       3      1     13      1       3 Lexer::isQuoteChar@210-212@src/main/java/org/apache/commons/csv/Lexer.java
+       3      3     27      1       3 Lexer::isStartOfLine@220-222@src/main/java/org/apache/commons/csv/Lexer.java
+      52     20    349      1      73 Lexer::nextToken@235-307@src/main/java/org/apache/commons/csv/Lexer.java
+       3      2     23      1       3 Lexer::nullToDisabled@309-311@src/main/java/org/apache/commons/csv/Lexer.java
+      48     13    295      1      54 Lexer::parseEncapsulatedToken@336-389@src/main/java/org/apache/commons/csv/Lexer.java
+      28      7    147      2      32 Lexer::parseSimpleToken@409-440@src/main/java/org/apache/commons/csv/Lexer.java
+      17      8    113      1      22 Lexer::readEndOfLine@447-468@src/main/java/org/apache/commons/csv/Lexer.java
+      28     13    118      0      31 Lexer::readEscape@479-509@src/main/java/org/apache/commons/csv/Lexer.java
+       9      4     61      1       9 Lexer::trimTrailingSpaces@511-519@src/main/java/org/apache/commons/csv/Lexer.java
+2 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+    342       6.5     2.1       41.5        42     src/main/java/org/apache/commons/csv/CSVParser.java
+    301      12.1     4.2       74.5        23     src/main/java/org/apache/commons/csv/Lexer.java
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      52     18    378      0      56 CSVParser::createHeaders@600-655@src/main/java/org/apache/commons/csv/CSVParser.java
+      52     20    349      1      73 Lexer::nextToken@235-307@src/main/java/org/apache/commons/csv/Lexer.java
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       643       8.5     2.9       53.2       65            2      0.03    0.19
