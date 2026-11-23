@@ -6,7 +6,7 @@ end-of-file.
 
 ## Requirements and source versions
 
-- Git, Maven, and a JDK on PATH. Recorded environment: Maven **3.9.1**, Java **21.0.9**, Windows10/11.
+- Git, Maven, and a JDK on PATH. Recorded environment: Maven **3.9.1**, Java **21.0.9**, Windows10.
 - Apache Commons CSV release: `rel/commons-csv-1.14.1`.
 - Exact upstream commit: `e14ef86d34211f9d1b9b6040c5f6dbafc93ba907`.
 - Python is needed only to repeat the optional Lizard analysis.

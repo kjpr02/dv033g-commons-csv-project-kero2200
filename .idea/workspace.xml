@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce0de96c-9287-4967-b4a6-13f8a0e49a72" name="Changes" comment="fix links">
-      <change beforePath="$PROJECT_DIR$/logs/README.md" beforeDir="false" />
+    <list default="true" id="ce0de96c-9287-4967-b4a6-13f8a0e49a72" name="Changes" comment="fix documentation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1795204389695</updated>
       <workItem from="1795204390741" duration="4145000" />
-      <workItem from="1795214498131" duration="847000" />
+      <workItem from="1795214498131" duration="2816000" />
     </task>
     <task id="LOCAL−00001" summary="project">
       <option name="closed" value="true" />
@@ -121,7 +122,14 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1795214653468</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="fix documentation">
+      <option name="closed" value="true" />
+      <created>1795215917649</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1795215917649</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +139,7 @@
     <MESSAGE value="tests" />
     <MESSAGE value="project" />
     <MESSAGE value="fix links" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix links" />
+    <MESSAGE value="fix documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix documentation" />
   </component>
 </project>
